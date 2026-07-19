@@ -79,7 +79,7 @@ export const Dashboard = () => {
                   <Card.Body className="d-flex flex-column justify-content-between p-3">
                     <div className="stat-card-row d-flex justify-content-between align-items-center mb-2">
                       <span className="stat-card-title text-uppercase font-sans" style={{ fontSize: '11px', fontWeight: 'bold' }}>{stat.title}</span>
-                      <div className="stat-card-icon d-flex align-items-center justify-content-center"><Icon size={14} /></div>
+                      {/* <div className="stat-card-icon d-flex align-items-center justify-content-center"><Icon size={14} /></div> */}
                     </div>
                     <div className="stat-card-value my-2" style={{ color: stat.highlight ? 'var(--warning)' : 'white' }}>{stat.value}</div>
                     <Card.Text className="stat-card-desc mb-0" style={{ fontSize: '11px' }}>{stat.desc}</Card.Text>
@@ -104,7 +104,7 @@ export const Dashboard = () => {
                   <Card.Body className="d-flex flex-column justify-content-between p-3">
                     <div className="stat-card-row d-flex justify-content-between align-items-center mb-2">
                       <span className={`stat-card-title ${stat.titleClass} text-uppercase font-sans`} style={{ fontSize: '11px', fontWeight: 'bold' }}>{stat.title}</span>
-                      <div className="stat-card-icon d-flex align-items-center justify-content-center" style={{ backgroundColor: stat.iconBg, color: stat.iconColor }}><Icon size={14} /></div>
+                      {/* <div className="stat-card-icon d-flex align-items-center justify-content-center" style={{ backgroundColor: stat.iconBg, color: stat.iconColor }}><Icon size={14} /></div> */}
                     </div>
                     <div className="stat-card-value my-2">{stat.value}</div>
                     <Card.Text className="stat-card-desc mb-0" style={{ fontSize: '11px' }}>{stat.desc}</Card.Text>
@@ -116,7 +116,7 @@ export const Dashboard = () => {
         </Row>
       </div>
 
-      <Card className="utilization-panel border-0 shadow-sm p-4 mb-4 animate-fade-in">
+      {/* <Card className="utilization-panel border-0 shadow-sm p-4 mb-4 animate-fade-in">
         <Card.Body className="p-0">
           <div className="utilization-header d-flex justify-content-between align-items-start mb-3 flex-wrap gap-2">
             <div>
@@ -135,7 +135,7 @@ export const Dashboard = () => {
             <span>0% (VACANT)</span> <span>50% (HALFWAY)</span> <span>100% (FULL)</span>
           </div>
         </Card.Body>
-      </Card>
+      </Card> */}
 
       <Row className="g-4">
         

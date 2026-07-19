@@ -44,13 +44,11 @@ export const Home = () => {
           Smart Parking<br />
           <span>Management System</span>
         </h1>
-        <p className="home-description mx-auto animate-fade-in" style={{ maxWidth: '680px' }}>
-          Easily manage reservations, calculate fees, track occupied slots, and generate printed receipts. An all-in-one local manager for simplified vehicle dispatch.
-        </p>
+        
 
         {/* Capacity Status Badge */}
         <div className="home-capacity-container animate-pulse-border">
-          <span className="home-capacity-label">Lot Status:</span>
+          <span className="home-capacity-label">Slot Status:</span>
           <span className="home-capacity-item">
             <Clock size={14} className="me-1" />
             Total Slots: {totalSlots}

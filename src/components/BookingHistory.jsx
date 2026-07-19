@@ -117,7 +117,7 @@ export const BookingHistory = () => {
                     <td className="px-4 py-3 text-center">
                       <Badge bg="light" className="text-secondary font-monospace border py-2 px-3 fs-7" style={{ borderRadius: '6px' }}>{b.slotNumber}</Badge>
                     </td>
-                    <td className="px-4 py-3 text-start fs-8 text-secondary">
+                    <td className="text-start fs-8 text-secondary">
                       <div className="d-flex flex-column gap-1">
                         <div className="d-flex align-items-center gap-2">
                           <Badge bg="success-subtle" className="text-success uppercase p-1" style={{ fontSize: '8px', fontWeight: 'bold' }}>IN</Badge>

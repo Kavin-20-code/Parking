@@ -71,7 +71,7 @@
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--bg-app);
+  background-color: var(--bg-app);background: linear-gradient(328deg,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
   color: var(--text-main);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -176,7 +176,7 @@ button {
 }
 
 .navbar-brand-icon {
-  background-color: var(--primary);
+  background-color:#a37af3;
   color: white;
   width: 36px;
   height: 36px;
@@ -192,10 +192,11 @@ button {
 }
 
 .navbar-brand-text {
-  font-family: var(--font-display);
-  font-size: 20px;
+   font-family: "Zen Dots", sans-serif;
+  font-style: normal;
+  font-size: 43px;
   font-weight: 700;
-  color: var(--primary-dark);
+  color: #a37af3;
   letter-spacing: -0.01em;
 }
 
@@ -298,7 +299,7 @@ button {
 }
 
 .home-title span {
-  color: var(--primary);
+  color: #edff00;
 }
 
 .home-description {
@@ -423,7 +424,7 @@ button {
 
 .home-action-card.indigo .action-card-icon {
   background-color: var(--primary-light);
-  color: var(--primary);
+  color: ffe200;
   border: 1px solid var(--primary-border);
 }
 
@@ -1180,7 +1181,7 @@ button {
 }
 
 .btn-primary {
-  background-color: var(--primary);
+  background: linear-gradient(to right, #33f8ff, #00ff74);
   color: white;
 }
 
@@ -2304,7 +2305,7 @@ button {
 }
 
 input[type="date"], input[type="time"] {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 th, td, thead, tbody, tr {

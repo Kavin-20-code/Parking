@@ -40,7 +40,7 @@ const AppContent = () => {
 
       {/* Human styled simple footer line */}
       <footer className="footer-area">
-        &copy; {new Date().getFullYear()} PARKEASY - SIMPLIFIED OFFLINE VEHICLE PARKING MANAGER
+        &copy; {new Date().getFullYear()} PARKEASY
       </footer>
 
       {/* Pure CSS Toast Alerts Interface */}

@@ -26,7 +26,6 @@ export const BookParking = () => {
   const [slotNumber, setSlotNumber] = useState('');
   const [bookingDate, setBookingDate] = useState('');
   const [entryTime, setEntryTime] = useState('');
-  
   const [exitDate, setExitDate] = useState('');
   const [exitTime, setExitTime] = useState('');
 
@@ -49,7 +48,6 @@ export const BookParking = () => {
   const finalDuration = calculateDuration(bookingDate, entryTime, exitDate, exitTime);
   const currentHourlyRate = parkingRates[vehicleType] || 20;
   const parkingFee = finalDuration * currentHourlyRate;
-  
   const addCharges = (carWash ? parkingRates.carWash || 50 : 0);
 
   const discount = 0;
